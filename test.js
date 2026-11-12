@@ -12,5 +12,5 @@ console.table([accountID, accountName, accountPassword, accountCity, accountEmai
 
 /*
 prefer using const and let instead of var because var is function scoped and can lead to unexpected behavior. Use const for variables that should not be reassigned, and let for variables that may change.
-and also if we declare 
+and also if we declare the variable without var, let or const it will be a global variable and can lead to unexpected behavior.
 */
